@@ -1,0 +1,577 @@
+.overly {
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 100vh;
+}
+.container {
+    width: 80%;
+    margin: auto;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.header {
+    background-image: url(../img/shutterstock_277750193.jpg);
+    height: 100vh;
+    text-align: center;
+    background-size: cover;
+    overflow: hidden;
+}
+.navbar {
+    padding-top: 18px;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+}
+.logo {
+    float: left;
+    width: 27.2%;
+}
+.logo img {
+    width: 139.76px;
+    height: 54px;
+}
+.nav {
+    float:right;
+}
+.nav ul {
+    width: 600px;
+    height: 90px;
+    margin-top: 16px;
+    margin-right: 71px;
+}
+.nav ul li a {
+    color: rgb(252, 247, 247);
+    font-size: 20px;
+}
+.nav ul li {
+    display: inline-block;
+    width: 80px;
+}
+ul {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
+.clrfix {
+    clear: both;
+}
+.header-content {
+    margin-top: 150px;
+    color: azure;
+
+}
+.header-content img {
+    margin-top: -18px;
+    margin-left: -3px;
+
+   
+}
+.header-content h1 {
+    font-size: 70px;
+    margin-bottom: 25px;
+    font-family: Alegreya, serif;
+    font-weight:400;
+}
+.header-content p {
+    font-size: 30px;
+    font-family: "Dancing Script", cursive;
+}
+.header-content button {
+    margin-top: 20px;
+    padding: 15px 30px;
+}
+    .header-content .learn-more {
+        background-color: #c1ab84;
+        color:white;
+        cursor: pointer;
+        font-family: 'Alegreya Sans', sans-serif;
+        font-size: 18px;
+        font-weight:bold;
+        cursor: pointer;
+        
+    }
+    .header-content .learn-more:hover{
+        background-color: white;
+        color: black;
+    }
+     .header-content .but{
+        background-color: white;
+        font-family: 'Alegreya Sans', sans-serif;
+        font-size: 18px;
+        font-weight:bold;
+        cursor: pointer;
+
+    }
+     .header-content .but:hover{
+        background-color: rgb(205, 112, 112);
+        color: black;
+    }
+    .container {
+        width: 80%;
+        margin: auto;
+    }
+    .chef {
+        float: left;
+        width: 40%;
+        padding-right: 24.8px;
+        margin-top: 80px;
+    }
+    .wrapper-content {
+        float: left;
+        width: 50%;
+        margin-left: 50px;
+        padding-top: 210px;
+    }
+    .wrapper-content h2 {
+        font-family: Alegreya, serif;
+        font-size: 36px;
+        font-weight: 400;
+    }
+    .wrapper-content h3 {
+        font-family: "Dancing Script", cursive;
+        font-size: 26px;
+        color: rgb(193, 171, 132);
+        font-weight: 400;
+    }
+    .wrapper-content p {
+        font-family: "Alegreya Sans", sans-serif;
+        margin-top: 15px;
+    }
+    .icons-list ul li {
+        margin-top: 30px;
+        font-family: "Alegreya Sans", sans-serif;
+    }
+    .clrfix {
+        clear: both;
+    }
+    .review {
+        background-color: rgb(248, 248, 248);
+    }
+    .review-content {
+        padding-top: 100px;
+        float: left;
+        width: 47%;
+        padding-right: 99px;
+    }
+    .review h2 {
+        font-size: 36px;
+        font-family: Alegreya, serif;
+        font-weight: 400;
+    }
+    .review h3 {
+        margin-top: 20px;
+        font-family: "Dancing Script", cursive;
+        font-size: 28px;
+        color: rgb(193, 171, 132);
+    }
+    .review p {
+        color: rgb(104, 104, 104);
+        margin-top: 40px;
+        font-size: 18px;
+        font-family: "Alegreya Sans", sans-serif;
+    }
+    .rev-list ul li {
+        margin-top: 26px;
+        font-size: 19px;
+        color: rgb(104, 104, 104);
+    }
+    .rev-img {
+        float: left;
+        width: 10%;
+        padding-top: 100px;
+    }
+    .clrfix {
+        clear: both;
+    }
+
+    .pic{
+        position:relative;
+        height: 400px;
+        background-image:url(../img/354463453_2595574950594838_5867805984513964326_n.jpg);
+        background-position: -69px 2288px;
+    background-attachment: fixed;
+    
+    }
+    .products {
+        text-align: center;
+        margin-bottom: 80px;
+margin-right: -60px;
+    }
+    .products h2 {
+        margin-top: 60px;
+        margin-bottom: 30px;
+        color: #253048;
+        font-family: 'Alegreya', serif;
+        font-size: 36px;
+        font-weight: 100;
+    }
+    .products h3 {
+        margin-bottom: 30px;
+        font-family: 'Dancing Script', cursive;
+        font-size: 36px;
+        color: #c1ab84 ;
+        font-weight: 100;
+    }
+    .product {
+        width: 29.5%;
+        float: left;
+        margin-right: 33px;
+        margin-bottom: 40px;
+
+    }
+    .clrfix {
+        clear: both;
+    }
+    .product p{
+        font-family: 'Alegreya', serif;
+        color: #686868;
+        margin-bottom: 10px;
+    }
+    .product h4{
+        font-family: 'Alegreya', serif;
+        color: #253048;
+        font-weight: 400;
+        font-size: 21px;
+        margin-top: 18px;
+        margin-bottom: 10px;
+    }
+    .product img {
+        width: 100%;
+        margin: auto;
+    }
+    .discribe {
+        text-align: center;
+    }
+    .full-menu {
+        margin-top: 36px;
+        padding: 10px 20px;
+        background-color: #c1ab84;
+    color:white;
+    }
+    .full-menu havor {
+        background-color: rgb(255, 149, 0);
+        color: blue;
+        cursor: pointer;
+    }
+    
+    .where {
+        float: left;
+        width: 46%;
+        margin-right: 100px;
+    }
+    .where h2 {
+        font-family: "Alegreya Sans", sans-serif;
+        margin-bottom: 30px;
+        font-weight:400;
+    }
+    .where p {
+        margin-bottom: 20px;
+        font-family: "Alegreya Sans", sans-serif;
+        font-weight:400;
+    }
+    .where-icons ul li {
+        margin-top: 30px;
+        font-family: "Alegreya Sans", sans-serif;
+    }
+    .clrfix {
+        clear: both;
+    }
+    .information {
+        margin-top: 50px;
+        background-color: rgb(64, 61, 56);
+    }
+    .about-us {
+        float: left;
+        width: 25%;
+        margin-right: 30px;
+        margin-top: 28px;
+    }
+    .information h4 {
+        color: rgb(255, 255, 255);
+        font-family: Alegreya, serif;
+        font-weight: 400;
+    }
+    .about-us p {
+        color: rgb(150, 150, 150);
+        font-family: Alegreya, serif;
+        font-size: 16px;
+        margin-bottom: 25px;
+        margin-top: 28px;
+    }
+    .useful-links {
+        float: left;
+        width: 24%;
+    }
+    .useful-links ul li {
+        font-family: Alegreya, serif;
+        color: rgb(150, 150, 150);
+        font-size: 14px;
+        margin-bottom: 16px;
+        margin-top: 28px;
+ 
+    
+    }
+    .useful-links ul a
+    {
+        color: rgb(150, 150, 150);
+    }
+    .information h4 {
+        color: rgb(255, 255, 255);
+        font-family: Alegreya, serif;
+    }
+    .opening-hours {
+        float: left;
+        width: 24%;
+    }
+    .opening-hours ul li {
+        font-family: Alegreya, serif;
+        color: rgb(150, 150, 150);
+        font-size: 14px;
+        margin-bottom: 16px;
+        margin-top: 28px;
+    }
+    .information h4 {
+        color: rgb(255, 255, 255);
+        font-family: Alegreya, serif;
+    }
+    .contact-details {
+        float: left;
+        width: 24%;
+    }
+    .contact-details ul li {
+        font-family: Alegreya, serif;
+        color: rgb(150, 150, 150);
+        font-size: 14px;
+        margin-bottom: 16px;
+        margin-top: 28px;
+        color: rgb(150, 150, 150);
+    }
+    .contact-details ul a{
+        color: rgb(150, 150, 150);
+    }
+    .clrfix {
+        clear: both;
+    }
+    .final-sec {
+        background-color: rgb(53, 51, 48);
+        text-align: center;
+    }
+    .final-sec p {
+        margin-top: 10px;
+        color: rgb(119, 119, 119);
+    }
+    .social-icons {
+        margin-top: 20px;
+    }
+    
+    .face {
+        height: 52px;
+        width: 52px;
+        line-height: 52px;
+        font-size: 24px;
+        background-color: rgb(72, 69, 64);
+        float: left;
+        border-radius: 100%;
+        margin-right: 5px;
+    }
+    .instagram {
+        height: 52px;
+        width: 52px;
+        line-height: 52px;
+        font-size: 24px;
+        background-color: rgb(72, 69, 64);
+        float: left;
+        border-radius: 100%;
+        margin-right: 5px;
+    }
+    .tumblr {
+        height: 52px;
+        width: 52px;
+        line-height: 52px;
+        font-size: 24px;
+        background-color: rgb(72, 69, 64);
+        float: left;
+        border-radius: 100%;
+        margin-right: 5px;
+    }
+    .twitter {
+        height: 52px;
+        width: 52px;
+        line-height: 52px;
+        font-size: 24px;
+        background-color: rgb(72, 69, 64);
+        float: left;
+        border-radius: 100%;
+        margin-right: 5px;
+    }
+    .clrfix {
+        clear: both;
+    }
+    .social-icons{
+        margin-left: 456px;
+        }
+    .vip {
+        background-color:white;
+        width: 42px;
+        height: 84px;
+        position: fixed;
+        top: 195px;
+        right: 20px;
+        text-align: center;
+    }
+    .cart{
+        margin-top: 25px;
+
+    }
+    .cogs{
+        margin-top: 15px;
+    }
+   .w1{
+    height: 44px;
+    width: 44px;
+    line-height: 44px;
+    font-size: 18px;
+    background-color: rgb(193, 171, 132);
+    float: left;
+    border-radius: 100%;
+    text-align: center;
+    color:white;
+    margin-right: 25px;
+    margin-top: -9px;
+
+   }
+
+    @media screen and (max-width:576px) {
+
+    .chef img{width: 100%;
+    margin-left:-84px;}
+       
+    .logo{
+        width: 87%;
+       text-align: center;
+       margin-bottom: 15px;
+    }
+    .header-content img{
+        width:278px;
+        height: 200px;
+        margin-right: 15px;
+
+    }
+    
+
+.header-content h1 {
+    font-size: 43px;}
+    .header-content p {
+        font-size: 20px;}
+        .rev-list {
+            float: none;
+        }
+        .rev-img{
+            float: none;
+          
+        }
+        .review h2 {
+            font-size: 29px;}
+         .review h3{
+            font-size: 22px;}
+
+            .review-content {
+               margin-bottom: 35px;
+                width: 78%;
+            }
+            .pic{
+                margin-top: 60px;
+                
+            }
+            .rev-list ul li {
+             
+                font-size: 17px;}
+                .cont{
+        text-align: center;
+                }
+            
+            
+.header-content {
+    margin-top: 188px;
+        }
+       
+        .nav{
+            width: 104%;
+        }
+        .nav ul li{
+            width: 62px;
+        }
+        .nav ul li a{
+            font-size: 15px;
+        }
+        .product{
+            float: none;
+            width:100%
+            
+        }
+        .chef {
+            width:100%;
+           margin-left: 18%;
+        }
+        .wrapper-content{
+            width: 100%;
+            height: 100%;
+           
+        }
+        .where{
+            width:70%
+            
+        }
+        .where-icons{
+            margin-bottom: 71px;
+        }
+        .about-us{
+            float: none;
+            width: 73%;
+        }
+        .contact-details{
+            float: none;
+            width: 49%;
+        }
+        .useful-links{
+            float: none;
+        }
+        .opening-hours{
+            float: none;
+            width: 49%;
+        }
+        .social-icons{
+            margin-left: 123px;
+            }
+    }
+    @media screen and (max-width:320px) {
+       .nav{
+        width:100%;
+       }
+        .header-content img{
+            width:100%;
+        }
+        .header-content h1{
+            width: 100%;
+        }
+        .header-content p{
+            width: 100%;
+        
+
+        }
+        .learn-more{
+            width: 100%;
+        }
+        .but{
+            width: 100%;
+        }
+       .logo{
+       width: 100%;
+      
+       }
+       
+       
+    }
+    
